@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "ScaryFont";
+  src: url(Scaryfontcode.ttf);
+}
+
+@font-face {
+  font-family: "CommonFont";
+  src: url(CrampsRegular-OV7od.ttf);
+}
+
+
+body {
+    text-align: center;
+    background: url("https://th.bing.com/th/id/R.435aaa66429a3767d30536f056371d21?rik=Aza8x%2f3OG0jeOg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fTfKat02.jpg&ehk=Jy7D%2bV%2bY61%2buk8J8oQ%2biTHCNVg1ngKlLepErhTVwPpQ%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: repeat;
+  background-size: 1920px 1080x;
+}
+
+
+
+img {
+    width: 250px;
+    height: 250;
+    border: 5px gray;
+}
+
+.epic-menu-pic {
+    width: 250px;
+    height: 250;
+    border: 5px solid #552a0c;
+}
+
+.ruins {
+  height: 350px;
+  width: 450px;
+  border: 5px solid #552a0c;
+}
+
+.arena {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.hallway {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.eye-path {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.energy-path {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.beast {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.sword {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.w-screen {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.l-screen {
+  height: 350px;
+  width: 350px;
+  border: 5px solid #552a0c
+}
+
+.surface-paths {
+  height: 300px;
+  width: 370px;
+  border: 5px solid #552a0c
+}
+
+.haha-funne-tree {
+  height: 350;
+  width: 350;
+  border: 5px solid #552a0c
+}
+
+.hambone {
+  height: 350;
+  width: 350;
+  border: 5px solid #552a0c
+}
+
+.epic-Fing-skelatol-monster {
+  height: 350;
+  width: 300;
+  border: 5px solid #552a0c
+  
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "ScaryFont";
+    color: red
+    
+}
+
+.gameover {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Impact";
+    color: red
+}
+
+.completion {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Impact";
+    color: limegreen
+}
+
+.buttons {
+    display: space-between;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "CommonFont";
+    color: white
+}
+
+
+button {
+    height: 40px;
+}
+
+.restart-button {
+    display:none;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+.story-opening{
+   display:none;
+}
+
+
+ 
+.enter-ruins-screen{
+   display:none;
+}
+
+
+.arena-screen{
+   display:none;
+}
+
+
+.hallway-screen{
+   display:none;
+}
+
+.gone-left-screen{
+   display:none;
+}
+
+.gone-right-screen{
+   display:none;
+}
+
+.ruins-with-sword{
+   display:none;
+}
+
+.ranged-approach-screen{
+   display:none;
+}
+
+.melee-approach-screen{
+   display:none;
+}
+
+.surface-screen{
+   display:none;
+}
+
+.right-surf-path-screen{
+   display:none;
+}
+
+.left-surf-path-screen{
+   display:none;
+}
+
+.hambone-ruins-screen{
+   display:none;
+}
+
+.hambone-hallway-screen{
+   display:none;
+}
+
+.hambone-arena-screen{
+   display:none;
+}
+
+.ruins-with-beast{
+   display:none;
+}
+
+.tactics-approach-screen{
+   display:none;
+}
+
+.brutality-approach-screen{
+   display:none;
+}
+
